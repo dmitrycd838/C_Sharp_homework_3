@@ -7,6 +7,7 @@ int[] array = new int[N];
 
 Random rand = new Random();
 
+
 for (int i = 0; i < array.Length; i++)
     array[i] = rand.Next(1, 101);
 for (int i = 0; i < array.Length; i++)
